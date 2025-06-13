@@ -3,7 +3,6 @@ import Button from '@/components/buttons'
 import { useState } from 'react'
 
 function Buttons() {
-    const [active, setActive] = useState<boolean>(false)
     const handleSubmit =() =>{
         alert('Hello world')
     }

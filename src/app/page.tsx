@@ -10,7 +10,7 @@ const navItems = [
   { name: "Upload CSV", icon: FileText },
 ];
 
-const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
+const DashboardLayout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
 
